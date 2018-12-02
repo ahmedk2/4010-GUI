@@ -80,7 +80,7 @@ public class WardSummary {
 		btnProduceSummary.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				JOptionPane.showMessageDialog(frame.getComponent(0), "The Ward Summary is as follows: ");
+				JOptionPane.showMessageDialog(frame.getComponent(0), "The Ward Summary was created.");
 			}
 		});
 		btnProduceSummary.setBounds(40, 215, 151, 29);
