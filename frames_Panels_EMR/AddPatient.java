@@ -84,7 +84,7 @@ public class AddPatient {
 				JOptionPane.showMessageDialog(frame.getComponent(0), "A new patient record has been added");
 			}
 		});
-		button.setForeground(Color.GREEN);
+		button.setForeground(Color.BLACK);
 		button.setBounds(88, 199, 130, 33);
 		frame.getContentPane().add(button);
 		

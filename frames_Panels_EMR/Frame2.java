@@ -47,7 +47,8 @@ public class Frame2 {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JLabel lblWelcomeToThe = new JLabel("Welcome to the EMR");
-		lblWelcomeToThe.setBounds(161, 20, 135, 16);
+		lblWelcomeToThe.setForeground(Color.MAGENTA);
+		lblWelcomeToThe.setBounds(156, 17, 135, 16);
 		frame.getContentPane().add(lblWelcomeToThe);
 		
 		JButton btnNewButton = new JButton("Add Patient Record");
@@ -57,7 +58,7 @@ public class Frame2 {
 				new AddPatient().setVisible(true);
 			}
 		});
-		btnNewButton.setForeground(Color.GREEN);
+		btnNewButton.setForeground(Color.BLACK);
 		btnNewButton.setBounds(140, 45, 168, 29);
 		frame.getContentPane().add(btnNewButton);
 		
@@ -68,7 +69,7 @@ public class Frame2 {
 				new ModifyPatient().setVisible(true);
 			}
 		});
-		btnNewButton_1.setForeground(Color.MAGENTA);
+		btnNewButton_1.setForeground(Color.BLACK);
 		btnNewButton_1.setBounds(140, 85, 168, 29);
 		frame.getContentPane().add(btnNewButton_1);	
 		

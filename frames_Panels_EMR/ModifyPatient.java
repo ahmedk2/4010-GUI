@@ -85,7 +85,7 @@ public class ModifyPatient {
 				JOptionPane.showMessageDialog(frame.getComponent(0), "The patient record was modified.");
 			}
 		});
-		button.setForeground(Color.MAGENTA);
+		button.setForeground(Color.BLACK);
 		button.setBounds(84, 187, 148, 38);
 		frame.getContentPane().add(button);
 		
